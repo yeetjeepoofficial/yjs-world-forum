@@ -1,5 +1,6 @@
-This file exists for the sole purpose of redeploying the server automatically from GitHub when updating the backend.
+This file exists for the sole purpose of redeploying the Render from GitHub when updating the backend.
 Each "update" represents the times this file has been used.
 
+Update
 Update
 Update
