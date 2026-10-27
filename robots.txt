@@ -1,48 +1,82 @@
-# This file tells search engines and bots what they are allowed to see on your site.
+# Block known aggressive security scanners and crawlers
+User-agent: Acunetix
+User-agent: BackDoorBot
+User-agent: BlackWidow
+User-agent: ChinaClaw
+User-agent: Coreat
+User-agent: CustomSpider
+User-agent: DIIbot
+User-agent: Download Demon
+User-agent: eCatch
+User-agent: EirGrabber
+User-agent: EmailCollector
+User-agent: Express WebPictures
+User-agent: ExtractorPro
+User-agent: EyeNetIE
+User-agent: FlashGet
+User-agent: GetRight
+User-agent: GetWeb!
+User-agent: Go!Zilla
+User-agent: Go-Ahead-Got-It
+User-agent: GrabNet
+User-agent: Grafula
+User-agent: HMView
+User-agent: HTTrack
+User-agent: Image Stripper
+User-agent: Image Sucker
+User-agent: Indy Library
+User-agent: InterGET
+User-agent: Internet Ninja
+User-agent: JetCar
+User-agent: JOC Web Spider
+User-agent: JustView
+User-agent: Larbin
+User-agent: Leecher
+User-agent: Mass Downloader
+User-agent: MIDown tool
+User-agent: Mister PiX
+User-agent: Navroad
+User-agent: NearSite
+User-agent: NetAnts
+User-agent: NetSpider
+User-agent: Net Vampire
+User-agent: NetZIP
+User-agent: Octopus
+User-agent: Offline Explorer
+User-agent: PageGrabber
+User-agent: Papa Foto
+User-agent: pcBrowser
+User-agent: RealDownload
+User-agent: ReGet
+User-agent: SiteSnagger
+User-agent: SmartDownload
+User-agent: SuperBot
+User-agent: SuperHTTP
+User-agent: Surfbot
+User-agent: tAkeOut
+User-agent: TeleportPro
+User-agent: VoidEYE
+User-agent: WebImageCollector
+User-agent: WebLeacher
+User-agent: WebSucker
+User-agent: WebWhacker
+User-agent: WebZIP
+User-agent: Wget
+User-agent: Widow
+User-agent: WWWOFFLE
+User-agent: Xaldon WebSpider
+User-agent: Zeus
+Disallow: /
 
-# This is the default rule, which allows search engines to crawl your site (recommended).
+# Block generic bad bots and AI scrapers
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: CCBot
+User-agent: Anthropic-AI
+User-agent: Claude-Web
+User-agent: Google-Extended
+Disallow: /
+
+# Allow good search engines to crawl everything else
 User-agent: *
-Allow: /
-
-# If you do not want AI bots to crawl your site, remove the # from the following lines:
-#User-agent: AI2Bot
-#User-agent: Ai2Bot-Dolma
-#User-agent: Amazonbot
-#User-agent: anthropic-ai
-#User-agent: Applebot-Extended
-#User-agent: Bytespider
-#User-agent: CCBot
-#User-agent: ChatGPT-User
-#User-agent: Claude-Web
-#User-agent: ClaudeBot
-#User-agent: cohere-ai
-#User-agent: Diffbot
-#User-agent: DuckAssistBot
-#User-agent: FacebookBot
-#User-agent: FriendlyCrawler
-#User-agent: Google-Extended
-#User-agent: GoogleOther
-#User-agent: GoogleOther-Image
-#User-agent: GoogleOther-Video
-#User-agent: GPTBot
-#User-agent: iaskspider/2.0
-#User-agent: ICC-Crawler
-#User-agent: ImagesiftBot
-#User-agent: img2dataset
-#User-agent: ISSCyberRiskCrawler
-#User-agent: Kangaroo Bot
-#User-agent: Meta-ExternalAgent
-#User-agent: Meta-ExternalFetcher
-#User-agent: OAI-SearchBot
-#User-agent: omgili
-#User-agent: omgilibot
-#User-agent: PanguBot
-#User-agent: PerplexityBot
-#User-agent: PetalBot
-#User-agent: Scrapy
-#User-agent: Sidetrade indexer bot
-#User-agent: Timpibot
-#User-agent: VelenPublicWebCrawler
-#User-agent: Webzio-Extended
-#User-agent: YouBot
-#Disallow: /
+Disallow:
